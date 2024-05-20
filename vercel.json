@@ -1,0 +1,7 @@
+{
+  "framework": null,
+  "rewrites": [{ "source": "/:path*", "destination": "/api/:path*" }],
+  "redirects": [
+    { "source": "/api/:path*", "destination": "/:path*", "permanent": true }
+  ]
+}
